@@ -1,0 +1,55 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 7px;
+    margin-left: 150vh;
+
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+
+}
+h1{
+    font-size: 68px;
+    font-weight: 700;
+}
+.highlight{
+    color:violet;
+
+}
+p{
+    font-weight: bold;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    position: absolute;
+    left: 150vh;
+    bottom: 250px;
+}
+button{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: darkolivegreen;
+}
+body{
+    background-color:blanchedalmond;
+}
+nav ul li:nth-child(2) a {/*project*/
+border-color: blue;
+color: blue;}
